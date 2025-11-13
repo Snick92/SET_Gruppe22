@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/BussBonusApplikasjon/BussBonusApplikasjon.iml" filepath="$PROJECT_DIR$/BussBonusApplikasjon/BussBonusApplikasjon.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/SET_Gruppe22_Repo.iml" filepath="$PROJECT_DIR$/.idea/SET_Gruppe22_Repo.iml" />
     </modules>
   </component>
