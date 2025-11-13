@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8ca45b02-4595-47f1-bae6-5dab87780803" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/BussBonusApplikasjon/BussBonusApplikasjon.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BussBonusApplikasjon/src/main/java/hiof/setgr22/bussbonusapplikasjon/main/BussBonusApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/BussBonusApplikasjon/src/BussBonusApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BussBonusApplikasjon/src/main/java/hiof/setgr22/bussbonusapplikasjon/model/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/BussBonusApplikasjon/src/core/domain/Admin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BussBonusApplikasjon/src/main/java/hiof/setgr22/bussbonusapplikasjon/model/EndUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/BussBonusApplikasjon/src/core/domain/EndUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BussBonusApplikasjon/src/main/java/hiof/setgr22/bussbonusapplikasjon/model/Route.java" beforeDir="false" afterPath="$PROJECT_DIR$/BussBonusApplikasjon/src/core/domain/Route.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BussBonusApplikasjon/src/main/java/hiof/setgr22/bussbonusapplikasjon/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/BussBonusApplikasjon/src/core/domain/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BussBonusApplikasjon/src/main/java/hiof/setgr22/bussbonusapplikasjon/service/AuthenticationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/BussBonusApplikasjon/src/core/services/AuthenticationService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BussBonusApplikasjon/src/main/java/hiof/setgr22/bussbonusapplikasjon/service/RouteService.java" beforeDir="false" afterPath="$PROJECT_DIR$/BussBonusApplikasjon/src/core/services/RouteService.java" afterDir="false" />
-    </list>
+    <list default="true" id="8ca45b02-4595-47f1-bae6-5dab87780803" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,22 +21,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
@@ -71,6 +60,7 @@
       <updated>1763028166872</updated>
       <workItem from="1763028168569" duration="515000" />
       <workItem from="1763031987054" duration="1143000" />
+      <workItem from="1763033464756" duration="88000" />
     </task>
     <servers />
   </component>
