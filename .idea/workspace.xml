@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8ca45b02-4595-47f1-bae6-5dab87780803" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/BussBonusApplikasjon/src/api/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BussBonusApplikasjon/src/api/controllers/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BussBonusApplikasjon/src/core/dto/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BussBonusApplikasjon/src/core/port/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BussBonusApplikasjon/src/core/usecases/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BussBonusApplikasjon/src/infrastructure/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BussBonusApplikasjon/src/test/acceptanceTests/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BussBonusApplikasjon/src/test/integrationTests/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BussBonusApplikasjon/src/test/unitTests/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BussBonusApplikasjon/src/test/usecasesTests/.gitkeep" afterDir="false" />
-    </list>
+    <list default="true" id="8ca45b02-4595-47f1-bae6-5dab87780803" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -71,7 +60,7 @@
       <updated>1763028166872</updated>
       <workItem from="1763028168569" duration="515000" />
       <workItem from="1763031987054" duration="1143000" />
-      <workItem from="1763033464756" duration="465000" />
+      <workItem from="1763033464756" duration="1237000" />
     </task>
     <servers />
   </component>
