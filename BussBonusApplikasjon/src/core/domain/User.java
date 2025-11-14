@@ -12,7 +12,8 @@ public class User {
 
     logIn();
     logOut();
-
+    createUser();
+    deleteUser();
      */
 
 
