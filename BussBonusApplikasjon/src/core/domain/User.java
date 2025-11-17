@@ -2,10 +2,10 @@ package core.domain;
 
 public abstract class User {
 
-    int userId;
-    String firstName;
-    String lastName;
-    String email;
+    protected int userId;
+    protected String firstName;
+    protected String lastName;
+    protected String email;
 
     //Constructor
     public User ( int userId, String firstName, String lastName, String email){
