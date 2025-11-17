@@ -1,12 +1,11 @@
 package core.domain;
 
-public class User {
+public abstract class User {
 
-    int userID;
+    int userId;
     String firstName;
     String lastName;
     String email;
-    String password;
 
     /*--- Metoder ---
 
@@ -16,7 +15,11 @@ public class User {
     deleteUser();
      */
 
-
+/*
+* protected int id;
+    protected String firstName;
+    protected String lastName;
+    protected String email;*/
 }
 
 
