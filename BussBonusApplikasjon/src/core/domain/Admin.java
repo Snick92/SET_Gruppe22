@@ -7,7 +7,7 @@ public class Admin extends User{
         super(userId, firstName, lastName, email);
     }
 
-    /*--- Metoder ---
+    /*--- Metoder --- moves to usecases??
 
     createRoute();
     deleteRoute();
