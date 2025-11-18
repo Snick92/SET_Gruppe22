@@ -1,6 +1,6 @@
 package core.port;
 
-public class RouteRepository {
+public interface RouteRepository {
 
 
 }
