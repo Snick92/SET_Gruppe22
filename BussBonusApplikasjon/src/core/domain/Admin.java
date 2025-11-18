@@ -1,8 +1,14 @@
 package core.domain;
 
-public class Admin {
+public class Admin extends User{
 
-    /*--- Metoder ---
+
+    //Constructor
+    public Admin(int userId, String firstName, String lastName, String email) {
+        super(userId, firstName, lastName, email);  //calls the superclass user
+    }
+
+    /*--- Metoder --- moves to usecases??
 
     createRoute();
     deleteRoute();
