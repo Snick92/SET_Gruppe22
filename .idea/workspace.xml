@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8ca45b02-4595-47f1-bae6-5dab87780803" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/BussBonusApplikasjon/src/core/domain/Trip.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -85,11 +84,22 @@
       <workItem from="1763033464756" duration="1237000" />
       <workItem from="1763121647239" duration="42000" />
       <workItem from="1763419570349" duration="3611000" />
-      <workItem from="1763469838490" duration="754000" />
+      <workItem from="1763469838490" duration="2189000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
