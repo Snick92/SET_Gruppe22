@@ -1,4 +1,4 @@
 package core.port;
 
-public class UserRepository {
+public interface UserRepository {
 }

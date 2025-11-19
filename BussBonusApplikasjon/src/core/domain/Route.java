@@ -8,16 +8,15 @@ public class Route {
     private String startFromBusStop;
     private String stopOnBusStop;
     private LocalDateTime time;
-    private boolean routeIsDelayed;
-
+    private boolean isDelayed;
 
     //Constructor
-    public Route (int routeId, String startFromBusStop, String stopOnBusStop, LocalDateTime time, boolean routeIsDelayed){
+    public Route (int routeId, String startFromBusStop, String stopOnBusStop, LocalDateTime time, boolean isDelayed){
         this.routeId = routeId;
         this.startFromBusStop = startFromBusStop;
         this.stopOnBusStop = stopOnBusStop;
         this.time = time;
-        this.routeIsDelayed = routeIsDelayed;
+        this.isDelayed = isDelayed;
     }
 
     //Getter
@@ -37,8 +36,8 @@ public class Route {
         return time;
     }
 
-    public boolean isRouteIsDelayed() {
-        return routeIsDelayed;
+    public boolean isDelayed() {
+        return isDelayed;
     }
 
 
