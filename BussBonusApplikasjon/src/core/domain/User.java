@@ -8,14 +8,16 @@ public abstract class User {
     protected String firstName;
     protected String lastName;
     protected String email;
+    protected String userType;
     protected LocalDateTime createdAt;
 
     //Constructor
-    public User (int userId, String firstName, String lastName, String email, LocalDateTime createdAt){
+    public User (int userId, String firstName, String lastName, String email, String userType, LocalDateTime createdAt){
         this.userId = userId;
         this.firstName = firstName;
         this.lastName = lastName;
         this.email=email;
+        this.userType = userType;
         this.createdAt = createdAt;
     }
 
