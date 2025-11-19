@@ -5,16 +5,16 @@ import java.time.LocalDateTime;
 public class Route {
 
     private int routeId;
-    private String startFromBusStop;
-    private String stopOnBusStop;
+    private String startBusStop;
+    private String stopBusStop;
     private LocalDateTime time;
     private boolean isDelayed;
 
     //Constructor
-    public Route (int routeId, String startFromBusStop, String stopOnBusStop, LocalDateTime time, boolean isDelayed){
+    public Route (int routeId, String startBusStop, String stopBusStop, LocalDateTime time, boolean isDelayed){
         this.routeId = routeId;
-        this.startFromBusStop = startFromBusStop;
-        this.stopOnBusStop = stopOnBusStop;
+        this.startBusStop = startBusStop;
+        this.stopBusStop = stopBusStop;
         this.time = time;
         this.isDelayed = isDelayed;
     }
@@ -24,12 +24,12 @@ public class Route {
         return routeId;
     }
 
-    public String getStartFromBusStop() {
-        return startFromBusStop;
+    public String getStartBusStop() {
+        return startBusStop;
     }
 
-    public String getStopOnBusStop() {
-        return stopOnBusStop;
+    public String getStopBusStop() {
+        return stopBusStop;
     }
 
     public LocalDateTime getTime() {
