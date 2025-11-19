@@ -1,18 +1,22 @@
 package core.domain;
 
+import java.time.LocalDateTime;
+
 public abstract class User {
 
     protected int userId;
     protected String firstName;
     protected String lastName;
     protected String email;
+    protected LocalDateTime createdAt;
 
     //Constructor
-    public User ( int userId, String firstName, String lastName, String email){
+    public User (int userId, String firstName, String lastName, String email, LocalDateTime createdAt){
         this.userId = userId;
         this.firstName = firstName;
         this.lastName = lastName;
         this.email=email;
+        this.createdAt = createdAt;
     }
 
     //getter
@@ -30,6 +34,10 @@ public abstract class User {
 
     public String getEmail() {
         return email;
+    }
+
+    public LocalDateTime getCreatedAt() {
+        return createdAt;
     }
 
     /*--- Metoder ---

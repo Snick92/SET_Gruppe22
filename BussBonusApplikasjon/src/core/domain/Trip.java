@@ -24,4 +24,33 @@ public class Trip {
         this.isBonusTrip = isBonusTrip;
         this.createdAt = createdAt;
     }
+
+    //Getter
+    public int getTripId() {
+        return tripId;
+    }
+
+    public int getUserId() {
+        return userId;
+    }
+
+    public int getRouteId() {
+        return routeId;
+    }
+
+    public LocalDateTime getDepartureTime() {
+        return departureTime;
+    }
+
+    public LocalDateTime getArrivalTime() {
+        return arrivalTime;
+    }
+
+    public boolean isBonusTrip() {
+        return isBonusTrip;
+    }
+
+    public LocalDateTime getCreatedAt() {
+        return createdAt;
+    }
 }
