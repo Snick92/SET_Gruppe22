@@ -1,7 +1,7 @@
 package core.dto;
 
 // dto for registrering av bruker
-public class CreateUserReguest {
+public class CreateUserRequest {
 
     private String firstName;
     private String lastName;
@@ -11,7 +11,7 @@ public class CreateUserReguest {
 
 
     //Constructor -- with no method
-    public CreateUserReguest(){
+    public CreateUserRequest(){
 
     }
 
