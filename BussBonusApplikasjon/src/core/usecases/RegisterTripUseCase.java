@@ -39,7 +39,7 @@ public class RegisterTripUseCase {
         );
 
 
-        Trip saved = tripRepository.save(trip);
+        Trip saved = tripRepository.saveTrip(trip);
 
 
         TripDTO out = new TripDTO();
