@@ -6,6 +6,7 @@ import java.util.List;
 import java.util.Optional;
 
 /**
+ * Outbound
  * This is the repository port for User.
  * It defines what the application needs from the data layer.
  * Implemented later in the infrastructure layer (ex: SQLite).
