@@ -2,19 +2,16 @@ package core.dto;
 
 import java.time.LocalDateTime;
 
-//The return from route search
-public class RouteResponse {
+public class RouteDTO {
 
     private int routeId;
     private String startBusStop;
     private String endBusStop;
     private LocalDateTime time;
-    private boolean delayed;
+    private boolean isDelayed;
 
-    //Empty constructor
-    public RouteResponse() {
+    public RouteDTO() {}
 
-    }
 
     //Getter & setter
     public int getRouteId() {
@@ -50,10 +47,10 @@ public class RouteResponse {
     }
 
     public boolean isDelayed() {
-        return delayed;
+        return isDelayed;
     }
 
     public void setDelayed(boolean delayed) {
-        this.delayed = delayed;
+        this.isDelayed = delayed;
     }
 }

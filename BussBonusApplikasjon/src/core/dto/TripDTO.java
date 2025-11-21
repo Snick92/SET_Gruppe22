@@ -2,9 +2,9 @@ package core.dto;
 
 import java.time.LocalDateTime;
 
-//recording of a trip
-public class TripResponse {
+public class TripDTO {
 
+    private int tripId;
     private int userId;
     private int routeId;
     private LocalDateTime departureTime;
@@ -12,13 +12,17 @@ public class TripResponse {
     private boolean isBonusTrip;
     private LocalDateTime createdAt;
 
+    public TripDTO() {}
 
-    //Empty constructor
-    public TripResponse(){
-
+    // Getter & Setter
+    public int getTripId() {
+        return tripId;
     }
 
-    //Getter & setter
+    public void setTripId(int tripId) {
+        this.tripId = tripId;
+    }
+
     public int getUserId() {
         return userId;
     }
@@ -56,7 +60,7 @@ public class TripResponse {
     }
 
     public void setBonusTrip(boolean bonusTrip) {
-        isBonusTrip = bonusTrip;
+        this.isBonusTrip = bonusTrip;
     }
 
     public LocalDateTime getCreatedAt() {

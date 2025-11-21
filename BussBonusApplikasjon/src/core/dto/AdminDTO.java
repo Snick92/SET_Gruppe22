@@ -2,28 +2,23 @@ package core.dto;
 
 import java.time.LocalDateTime;
 
-public class UserResponse {
+public class AdminDTO {
 
-    private int userId;
+    private int id;
     private String firstName;
     private String lastName;
     private String email;
-    private String userType;
     private LocalDateTime createdAt;
 
-    //Empty constructor
-    public UserResponse(){
-
-    }
-
+    public AdminDTO() {}
 
     //Getter & setter
-    public int getUserId() {
-        return userId;
+    public int getId() {
+        return id;
     }
 
-    public void setUserId(int userId) {
-        this.userId = userId;
+    public void setId(int id) {
+        this.id = id;
     }
 
     public String getFirstName() {
@@ -50,14 +45,6 @@ public class UserResponse {
         this.email = email;
     }
 
-    public String getUserType() {
-        return userType;
-    }
-
-    public void setUserType(String userType) {
-        this.userType = userType;
-    }
-
     public LocalDateTime getCreatedAt() {
         return createdAt;
     }
@@ -65,5 +52,4 @@ public class UserResponse {
     public void setCreatedAt(LocalDateTime createdAt) {
         this.createdAt = createdAt;
     }
-    
 }

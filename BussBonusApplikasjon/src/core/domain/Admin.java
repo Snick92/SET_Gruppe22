@@ -10,6 +10,11 @@ public class Admin extends User{
         super(userId, firstName, lastName, email, userType, createdAt);  //calls the superclass user
     }
 
+    @Override
+    public String getUserType(){
+        return "Admin";
+    }
+
     /*--- Metoder --- moves to usecases??
 
     createRoute();

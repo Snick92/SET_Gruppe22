@@ -42,6 +42,9 @@ public abstract class User {
         return createdAt;
     }
 
+    // Each subclass returns its user type
+    public abstract String getUserType();
+
     /*--- Metoder ---
 
     logIn();
