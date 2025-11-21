@@ -9,7 +9,7 @@ import static org.junit.Assert.assertTrue;
 public class RouteTest {
 
     @Test
-    void routeShouldStoreCorrectValues() {
+    public void routeShouldStoreCorrectValues() {
         // Arrange
         int id = 10;
         String start = "Sarpsborg";
