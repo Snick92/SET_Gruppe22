@@ -1,21 +1,26 @@
 package core.dto;
 
-// dto for registrering av bruker
-public class CreateUserRequest {
+import java.time.LocalDateTime;
 
+public class EndUserDTO {
+
+    private int id;
     private String firstName;
     private String lastName;
     private String email;
-    private String password;
-    private String userType;   //Sees that I need to update User class with this variable.
+    private LocalDateTime createdAt;
 
+    public EndUserDTO() {}
 
-    //Constructor -- with no method
-    public CreateUserRequest(){
-
+    // Getter & Setter
+    public int getId() {
+        return id;
     }
 
-    //Getter & setter
+    public void setId(int id) {
+        this.id = id;
+    }
+
     public String getFirstName() {
         return firstName;
     }
@@ -40,19 +45,13 @@ public class CreateUserRequest {
         this.email = email;
     }
 
-    public String getPassword() {
-        return password;
+    public LocalDateTime getCreatedAt() {
+        return createdAt;
     }
 
-    public void setPassword(String password) {
-        this.password = password;
+    public void setCreatedAt(LocalDateTime createdAt) {
+        this.createdAt = createdAt;
     }
 
-    public String getUserType() {
-        return userType;
-    }
 
-    public void setUserType(String userType) {
-        this.userType = userType;
-    }
 }
