@@ -52,4 +52,6 @@ public class EndUserDTO {
     public void setCreatedAt(LocalDateTime createdAt) {
         this.createdAt = createdAt;
     }
+
+
 }
