@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8ca45b02-4595-47f1-bae6-5dab87780803" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/BussBonusApplikasjon/src/core/port/RouteRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/BussBonusApplikasjon/src/core/port/RouteRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BussBonusApplikasjon/src/core/port/TripRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/BussBonusApplikasjon/src/core/port/TripRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BussBonusApplikasjon/src/core/port/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/BussBonusApplikasjon/src/core/port/UserRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,7 +48,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "RepositoryClasses__in__port",
+    "git-widget-placeholder": "PORT",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
