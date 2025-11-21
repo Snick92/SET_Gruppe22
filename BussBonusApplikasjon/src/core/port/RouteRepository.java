@@ -13,16 +13,15 @@ import java.util.Optional;
 public interface RouteRepository {
 
     // Find a route by its ID
-    Optional<Route> findById(int routeId);
+    Optional<Route> findRouteById(int routeId);
 
     // Search for routes between two bus stops
     List<Route> searchByStops(String startBusStop, String endBusStop);
 
     // Save or update a route
-    Route save(Route route);
+    Route saveRoute(Route route);
 
     // Return all routes
-    List<Route> findAll();
-
+    List<Route> findAllRoutes();
 
 }

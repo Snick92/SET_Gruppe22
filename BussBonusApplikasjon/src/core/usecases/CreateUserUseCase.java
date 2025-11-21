@@ -28,7 +28,7 @@ public class CreateUserUseCase {
         }
 
         // Check if a user with this email already exists
-        if (userRepository.findByEmail(dto.getEmail()).isPresent()) {
+        if (userRepository.findUserByEmail(dto.getEmail()).isPresent()) {
             throw new IllegalStateException("User already exists.");
         }
 
@@ -55,7 +55,7 @@ public class CreateUserUseCase {
         }
 
         // Save user using the repository
-        User saved = userRepository.save(user);
+        User saved = userRepository.saveUser(user);
 
         // Map domain -> DTO
         UserDTO result = new UserDTO();

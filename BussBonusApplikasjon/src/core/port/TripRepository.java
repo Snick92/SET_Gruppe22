@@ -13,16 +13,15 @@ import java.util.Optional;
 public interface TripRepository {
 
     // Find one trip by ID
-    Optional<Trip> findById(int tripId);
+    Optional<Trip> findTripById(int tripId);
 
     // Save a new trip entry
-    Trip save(Trip trip);
+    Trip saveTrip(Trip trip);
 
     // Get all trips for one user
-    List<Trip> findByUserId(int userId);
+    List<Trip> findTripByUserId(int userId);
 
     // Get all trips in database
-    List<Trip> findAll();
-
+    List<Trip> findAllTrips();
 
 }

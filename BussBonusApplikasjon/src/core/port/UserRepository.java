@@ -14,19 +14,18 @@ import java.util.Optional;
 public interface UserRepository {
 
     // Find user by user ID (might not exist, so we return Optional)
-    Optional<User> findById(int id);
+    Optional<User> findUserById(int id);
 
     // Find user by email (used for login)
-    Optional<User> findByEmail(String email);
+    Optional<User> findUserByEmail(String email);
 
     // Save a new or existing user to storage
-    User save(User user);
+    User saveUser(User user);
 
     // Get all users (used mostly by admin features)
-    List<User> findAll();
+    List<User> findAllUsers();
 
     // Delete a user by ID
-    void deleteById(int id);
-
+    void deleteUserById(int id);
 
 }
