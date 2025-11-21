@@ -9,6 +9,11 @@ public class EndUser extends User{
         super(userId, fistName, lastName, email, userType, createdAt); //calls the superclass user
     }
 
+    @Override
+    public String getUserType(){
+        return "Enduser";
+    }
+
 /*--- Metoder ---  moves to usecases??
 
 showUserProfile();
