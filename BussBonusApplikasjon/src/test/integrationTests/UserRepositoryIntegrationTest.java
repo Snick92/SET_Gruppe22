@@ -27,7 +27,7 @@ public class UserRepositoryIntegrationTest {
     @Test
     @Order(1)
     public void shouldInsertUserIntoDatabase() {
-        var user = TestUserFactory.create("Test", "User", "test@example.com");
+        var user = TestUserFactory.create("Test", "User", "test@example.com", "EndUser");
         User saved = repo.saveUser(user);
 
         assertTrue(saved.getUserId() > 0);
